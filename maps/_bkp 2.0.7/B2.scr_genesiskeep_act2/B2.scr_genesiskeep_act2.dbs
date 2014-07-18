@@ -1,0 +1,37 @@
+defgt = 1;
+type = "Doom Builder Map Settings Configuration";
+config = "Sonic Robo Blast 2 v2.0";
+
+MAP01
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+
+
+defaulttexture
+{
+	upper = "LFZWALL1";
+	middle = "LFZWALL1";
+	lower = "LFZWALL1";
+}
+
+
+defaultsector
+{
+	tceiling = "F_SKY1";
+	tfloor = "ROCKF1";
+	brightness = "191";
+	hceiling = "2048";
+	hfloor = "1120";
+}
+
+
+MAPB2
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+

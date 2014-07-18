@@ -1,0 +1,99 @@
+# Configuration File for Arch Pack
+# Author: Ezer'Arch
+# Helpers: maybe...
+# Version Build: December 18, 2009
+# Version: 0.3 Beta
+
+# ==== MainCFG ====
+
+Modby Ezer'Arch
+
+Maincfg Category
+SRB2 version = 200
+SPStage_Start = 137
+RaceStage_Start = 137
+SStage_Start = 50
+
+
+# ==== Unlockables ====
+
+# At this moment: No emblems, No unlockables, No custom material.
+# ... It's just a level pack in slow development... (I have a life, didn't you know? D:)
+
+
+# ==== Single-player maps ====
+
+# Mill Citadel Zone Act 1 (MAPB1)
+Level 137
+LevelName = Mill Citadel
+Act = 1
+MusicSlot = 137
+NextLevel = 138
+TypeOfLevel = 4099
+SkyNum = 29
+MapCredits = Ezer'Arch
+
+# Mill Citadel Zone Act 2 (MAPB2)
+Level 138
+LevelName = Mill Citadel
+Act = 2
+MusicSlot = 137
+NextLevel = 139
+TypeOfLevel = 4099
+SkyNum = 29
+
+# Mill Citadel Zone Act 3 (MAPB3)
+Level 139
+LevelName = Mill Citadel
+Act = 3
+MusicSlot = 3
+NextLevel = 140
+TypeOfLevel = 4097
+SkyNum = 1
+
+# Misc Realm Zone (MAPB4)
+Level 140
+LevelName = Misc Realm
+Act = 0
+MusicSlot = 88
+NextLevel = 08
+TypeOfLevel = 4099
+SkyNum = 1
+Subtitle = Experimental Map
+
+
+# ==== Muitlplayer maps ====
+
+# Aqueduct Circuit Zone (MAPC1 - Race)
+Level 173
+LevelName = Aqueduct Circuit
+Act = 0
+MusicSlot = 92
+NextLevel = 70
+TypeOfLevel = 2
+SkyNum = 4
+
+# Lift Bridge Zone (MAPC2 - CTF)
+Level 174
+LevelName = Lift Bridge
+Act = 0
+MusicSlot = 90
+NextLevel = 80
+TypeOfLevel = 16
+SkyNum = 1
+
+# Water Plant Zone (MAPC3 - Match and Tag)
+Level 175
+LevelName = Water Plant
+Act = 0
+MusicSlot = 2
+NextLevel = 90
+TypeOfLevel = 12
+SkyNum = 29
+
+
+# ==== Message ====
+
+# If you pest me, who knows, I'll feel more motivated to make more levels for your amusement. I won't mind =)
+
+# ... seeya

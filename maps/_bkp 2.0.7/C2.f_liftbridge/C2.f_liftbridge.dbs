@@ -1,0 +1,19 @@
+defgt = 1;
+
+defaulttexture
+{
+	upper = "ACWRFL1A";
+	middle = "ACWRFL1A";
+	lower = "ACWRFL1A";
+}
+
+type = "Doom Builder Map Settings Configuration";
+config = "Sonic Robo Blast 2 v2.0";
+
+MAPC2
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+

@@ -1,0 +1,45 @@
+defgt = 1;
+type = "Doom Builder Map Settings Configuration";
+config = "Sonic Robo Blast 2 v2.1";
+
+MAPBA
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+
+
+defaulttexture
+{
+	upper = "CASTLE9";
+	middle = "CASTLE9";
+	lower = "CASTLE9";
+}
+
+
+defaultsector
+{
+	tceiling = "F_SKY1";
+	tfloor = "CEMENT2";
+	brightness = "255";
+	hceiling = "4096";
+	hfloor = "0";
+}
+
+
+MAPB2
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+
+
+MAPB5
+{
+	addwad = "";
+	addtexdir = "";
+	addflatdir = "";
+}
+

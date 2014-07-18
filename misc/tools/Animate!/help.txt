@@ -1,0 +1,7 @@
+*Animated Textures*
+
+This contains the command-line program that generates the ANIMATED lump required to have animated textures and flats. It also contains a .DAT file that tells it how to generate the file.
+
+So how do you tell it to animate things? Make a copy of the existing DAT file, so you don't mess up the original. Under the appropriate header (depending on if this is a flat or a texture), slap in a new line, and follow the syntax provided by the column names. This is self-explanatory, but just in case, the speed tells the game how many tics to wait before changing frames, the last name tells it which texture is first in the loop, and the first tells it which texture is last in the loop.
+
+That should be all you have to do, just run SWANTBLS.exe [insert dat name here].DAT and it'll generate ANIMATED.lmp and SWITCHES.lmp. Since SRB2 isn't Doom, SWITCHES is irrelevant, so just put ANIMATED.lmp into your WAD with XWE and you're all set. (For the record, though, SWITCHES was what determined what a texture's "on" and "off" states were in the original Doom. You know how the switches worked; this helped make that effect with new textures.) 

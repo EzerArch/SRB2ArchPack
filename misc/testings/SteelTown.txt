@@ -1,0 +1,23 @@
+# TEST (MAPBB)
+Level 147
+LevelName = Steel Town
+Act = 1
+MusicSlot = 139
+NextLevel = 1
+TypeOfLevel = 4099
+SkyNum = 4
+
+# CUSTOM THINGS
+
+# Special chain
+THING 131
+Flags = 33558800
+# MF_NOBLOCKMAP; MF_SPAWNCEILING; MF_NOGRAVITY; MF_NOCLIP; MF_SCENERY
+
+# Special Gargoyle
+# 123 - MT_GARGOYLE	
+THING 123
+Mass 10000
+Flags = 16779330
+# MF_SOLID=2; MF_PUSHABLE=64; MF_SLIDEME=2048; MF_ENEMY=16777216 
+

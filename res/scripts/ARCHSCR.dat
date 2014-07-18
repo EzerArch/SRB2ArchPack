@@ -1,0 +1,18 @@
+//// ARCH PACK SCRIPT
+//// Written by Ezer'Arch, Feb 21, 2011
+//// *** Read the SRB2Wiki to learn how to create and modify scripts: wiki.srb2.org
+
+//Server commands: Map Changes
+alias mill "map mapb1 -gametype coop;"
+alias aque "map mapc1 -gametype race;"
+alias lift "map mapc2 -gametype ctf;"
+alias water "map mapc3 -gametype match;"
+
+//Player commands: Camera and stuff
+alias cs "toggle showhud"
+
+//Server commands: Helpers
+alias archhelp "exec scripts/servhelp.txt"
+
+echo "*** ARCH PACK script was loaded successfully. Have fun playing Arch Pack v0.5! ***"
+echo "/!\ Type ARCHHELP in console to list Arch Pack custom commands. /!\"

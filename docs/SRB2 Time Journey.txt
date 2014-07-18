@@ -1,0 +1,124 @@
+Project 7 – Arch Pack (Time Journey)
+Level pack…
+1.	General Concept
+Levels:
+Every level has an altar. Each altar leads you a temple, actually (depending on age).
+Boss:
+Boss Levels are Coliseums that follow the age…
+2.	Levels
+1)	Genesis Keep
+o	Theme: Land. World Creation and Forest theme
+o	Comments: It’s a place where you face some elements of when the Earth was created. The 1st Act should be THE PORTAL for the level pack, must have: portal part and tutorial-like part and secrets.
+o	Special Elements:
+	1) portal-atrium with MOTD and cameras. Crystals, lava, geysers, rocks, floating rocks over geysers, caves-tunnels, lakes, small vegetations, rock bridges.
+	2) big rivers with current, big trees, first livings, caves, wooden bridges, lakes, floating woods over water. Mud under water. Cascade corridors. Water lily. Ceiling-sheets.
+o	References: Gemplanet.wad (MAP25 and MAP26), ICE…
+o	Tunes 98
+o	Enemies:
+	Dino Clawla
+	SDURF
+	Jetty-Syn Bomber
+	Green Snapper
+2)	Sand Valey
+o	Theme: Sand. Desert and Palestine cities.
+o	Comments: We will face the Antiquity. Greece in first act and Rome, 2nd. Some legendary Egyptian traps. 
+o	Special Elements: sand, falling sand, sand cascade, quicksand (under it: simple floor, death pit, cambers), temples, falling floors, columns, portals, arcs, Breakable walls, Multi-stack breakable floors, Antiquity architecture, sand walls, sand rivers (see STH360.wad; Dust Desert). A switch that makes a platform raise up over the quicksand.
+o	Tunes 89
+o	Enemies:
+	Egg Roman-Guard
+	Minus
+	Jetty-Syn Gunner
+	Green Snapper
+o	References:
+	Forever Forest Act 1 (Centigrade by BlueZero4, 2.0.6)
+	Arid Ruins Zone (sr_aridruins2.wad, 1.09.4)
+	MAP05 (SRB2Riders, 1.09.4)
+3)	Mill Citadel Zone
+o	Theme: Food. Middle Age’s Mill Plant.
+o	Comments: Say, it’s a monastery with a mill plant. Water appears, but it’s there just to move the mills. Will see Christian Churchs, catacombs, monasteries, Inquisition (traps?). 
+o	Special Elements: Water channels, Tunnels, Mills, Wooden Elevators, Silos, Wooden Foot bridge, death pit, “Abandoned chambers” (see Misc Realm), channels for grains, crushers. Plantations. Spikes, spike balls, hanging chains.
+o	In MCZ2, the player could kill the 4 Robo-Hoods (right path, flour-spike room, before 1st hole), and unlock a secret (use: No-more enemies).
+o	References:
+	Rainstorm Keep Zone, Mystic Realm, by Mystic
+	Miscellaneous Trip Zone, by Ezer’Arch
+o	Tunes 137
+o	Enemies:
+	Pop-up Turret
+	Sharp
+	Robo-Hood
+	Egg Knight
+4)	Wet Village
+o	Theme: Water. Early Modern Europe (1500-1800)
+o	Special Elements: Underwater wall/bridge, currents, aqueducts, floodgates. Boxes that float and crush the player against the ceiling.
+o	References:
+	Gelespious Mountain (scr_gelespiousmountain.wad): floodgates
+o	Enemies:
+	Pop-up Turret
+	Skim
+	Jet Jaw
+	Gold Buzz
+5)	Steel Town
+o	Theme: Fire. Industrial revolution (c.1850)
+o	Special Elements: steel industry, Conveyor Belt (plain and channels), Conveyor Belt + Crushers (some crushers could have a pit, see Mystic Realm, “Rainstorm Keep”, left path), steam, incandescent ingots, anvil (Sonic Shuffle). Trap for enemies (open a hole, bots fall into, press a button and crusher goes down). Push a button, and drain down the melt steel.
+o	Enemies:
+	Red Crawla
+	Snailer
+	Red Buzz
+	Crawla Commander
+6)	Hilltop Megalopolis
+o	Theme: Air. Skyscraper level. 
+o	Special Elements:  Towers, Clouds (bounce-able and passable), Ice, Snow (?), Death pit, Bridges, Footbridges, Falling snow (act 2). Laundry. Monorail.
+o	Enemies:
+	Vulture
+	Turret
+	Crawla Commander
+	????
+7)	Space
+o	Theme: Space and Tech.
+o	Comments: It’s a Space Station among asteroids. Tubes-tunnels will link asteroids. Rooms in asteroids.
+o	Special Elements: Asteroids, tubes, microgravity, tunnels, elevator, air tubes, Force Field (AFALL), Laser Wall, Deton Corridor (glass walls to scary players), Falling Energy Blocks, Vacuum, Bounce Walls, fans, elevator, windows to see the space, elevator-capsule?
+o	Enemies:
+	Detons
+	Turret
+	Pointy
+	????
+8)	Sky Path
+o	Teleporter-portals
+•	The Boss Levels:
+1.	Stonehenge
+2.	Roman Coliseum
+3.	Big silo
+4.	Cascade room?
+5.	???
+6.	Aerial Stadium?
+7.	Asteroid, satellite or isle-station
+8.	??? 
+•	The Temples (or Parallel Dimension):
+o	The First Temple: Green – Land
+o	The Second Temple: Orange – Sand
+o	The Third Temple: Pink – Food
+o	The Fourth Temple: Blue – Water
+o	The Fifty Temple: Red – Fire
+o	The Sixty Temple: Light Blue – Air
+o	The Seventh Temple: Grey – Space/Tech
+o	The Eighty Temple:  XXX (needed? Why?)
+
+Special tag numbers:
+•	1000: special
+•	1100: pushers (541-547)
+•	1200: plane scrolling and carriers (510-535)
+•	1300: wall scrolling (500-506)
+•	1400: lighting and colormap (600-606)
+•	2000: end level
+
+Maps worth seeing
+•	mrtf_contest-mayjun10.wad:
+o	MAPM1 - Diamond Blizzard Zone
+o	MAPR3 - Iron Aquarium Zone
+Effects
+Sound 238 – breaking wood
+Sound 128 – earthquake
+Sound 251-254 – machineries (Steel Town)
+Sound 255 – lava/melted metal
+Sound 256 – Mine, dynamite,  
+

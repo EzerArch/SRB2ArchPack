@@ -1,0 +1,65 @@
+# Config File for Arch Pack
+# Author: Ezer'Arch
+# Version Build: August 1st, 2009
+# Alpha version 1
+
+# Single-player maps
+
+Level 137
+LevelName = Mill Citadel
+Act = 0
+MusicSlot = 137
+NextLevel = 138
+TypeOfLevel = 4099
+SkyNum = 1
+
+Level 138
+LevelName = Mill Citadel
+Act = 2
+MusicSlot = 8
+NextLevel = 139
+TypeOfLevel = 4099
+SkyNum = 1
+
+Level 139
+LevelName = Mill Citadel
+Act = 3
+MusicSlot = 3
+NextLevel = 140
+TypeOfLevel = 4097
+SkyNum = 1
+
+Level 140
+LevelName = Misc Realm
+Act = 0
+MusicSlot = 88
+NextLevel = 1102
+TypeOfLevel = 4099
+SkyNum = 1
+
+# Muitlplayer maps
+
+Level 173
+LevelName = Aqueduct Circuit
+Act = 0
+MusicSlot = 92
+NextLevel = 70
+TypeOfLevel = 2
+SkyNum = 1
+
+Level 174
+LevelName = Lift Bridge
+Act = 0
+MusicSlot = 90
+NextLevel = 80
+TypeOfLevel = 16
+SkyNum = 1
+
+Level 175
+LevelName = Water Plant
+Act = 0
+MusicSlot = 2
+NextLevel = 90
+TypeOfLevel = 12
+SkyNum = 1
+

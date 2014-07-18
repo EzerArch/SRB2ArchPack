@@ -1,0 +1,437 @@
+# Configuration File for ArchPack
+# File: scmrtf_archpack.wad
+# Author: Ezer'Arch
+# Release date: July 14, 2013
+# Version Build: 2.0 Stable
+
+# ==== Notes ====
+# v2.0 change log:
+#   - ADD: General - unlockables.
+#   - ADD: General - 15 emblems, 1st and 2nd act maps and MTZ have got 3 emblems each map.
+#   - ADD: New map - Genesis Keep Zone Act 1 (GKZ1).
+#   - ADD: New map - Genesis Keep Zone Act 2 (GKZ2).
+#   - ADD: New map - Genesis Keep Zone Act 3 (GKZ3).
+#   - ADD: New map - Soccer Field Zone (SFZ) is back as unlockable.
+#   - CHANGE: General - tumbleweed sprites were replaced to make SFZ ball. See SOC section below.
+#   - CHANGE: General - total number of emerald tokens is now 9.
+#   - CHANGE: General - single player maps were renumbered. Old savegames, statistics, time-attacks are unsupported.
+#   - CHANGE: MCZ2 - minor changes in the left path's 1st room. A few crates were moved and the path next to the exit enlarged.
+#   - CHANGE: MTZ - emerald tokens removed.
+#   - FIX: MCZ1 - wrong FOF height in the first room.
+# 
+# Known issues:
+# 1) I know there are some hall-of-mirrors in GKZ2. I'll try to fix them for the next release, if possible.
+# 2) There is a bug in the emblems/unlockable system, vanilla unlockables "leak" into this mod, and it counts more emblems than it is supposed to.
+#
+# General:
+#   - This level pack comes with a readme.txt, more details can be found there too.
+
+# ==== SRB2 Version ====
+
+Modby Ezer'Arch
+SRB2 version = 200
+
+# ==== MainCFG ====
+
+MAINCFG CATEGORY
+CustomVersion = ArchPack v2.0
+GameData = scmrtf_archpack.dat
+NumEmblems = 15
+TitleScrollSpeed = 8
+SpStage_Start = 137
+SpStage_End = 143
+RaceStage_Start = 137
+SStage_Start = 50
+
+
+# ==== Unlockables ====
+
+# 1 - LOCK-ON
+UNLOCKABLE 1
+Name = Vanilla maps
+Objective = Clear game at least once
+NeededGrade = 1
+Type = 1
+Var = 1
+
+# 2 - Soccer field
+UNLOCKABLE 2
+Name = Soccer field
+Objective = Collect 15 emblems and time-attack in    8 minutes
+NeededGrade = 0
+NeededEmblems = 15
+NeededTime = 480
+Type = 1
+Var = 176
+
+
+# ==== Emblem ====
+
+# Genesis Keep Zone Act 1 (MAPB1)
+EMBLEM 1
+X = -64
+Y = 1248
+Z = 1480
+PLAYERNUM = 0
+MAPNUM = 137
+
+EMBLEM 2
+X = 4480
+Y = -4576
+Z = 1480
+PLAYERNUM = 1
+MAPNUM = 137
+
+EMBLEM 3
+X = 7712
+Y = -1152
+Z = 1480
+PLAYERNUM = 2
+MAPNUM = 137
+
+# Genesis Keep Zone Act 2 (MAPB2)
+EMBLEM 4
+X = 2048
+Y = 1248
+Z = 1200
+PLAYERNUM = 0
+MAPNUM = 138
+
+EMBLEM 5
+X = -640
+Y = -10240
+Z = 490
+PLAYERNUM = 1
+MAPNUM = 138
+
+EMBLEM 6
+X = 864
+Y = -2752
+Z = 1900
+PLAYERNUM = 2
+MAPNUM = 138
+
+# Mill Citadel Zone Act 1 (MAPB4)
+EMBLEM 7
+X = 9600
+Y = 4128
+Z = 1490
+PLAYERNUM = 0
+MAPNUM = 140
+
+EMBLEM 8
+X = 1248
+Y = 7552
+Z = -360
+PLAYERNUM = 1
+MAPNUM = 140
+
+EMBLEM 9
+X = 2944
+Y = 1152
+Z = 1032
+PLAYERNUM = 2
+MAPNUM = 140
+
+# Mill Citadel Zone Act 2 (MAPB5)
+EMBLEM 10
+X = -4640
+Y = -2624
+Z = 64
+PLAYERNUM = 0
+MAPNUM = 141
+
+EMBLEM 11
+X = 6176
+Y = 4992
+Z = 960
+PLAYERNUM = 1
+MAPNUM = 141
+
+EMBLEM 12
+X = 10496
+Y = 10528
+Z = 128
+PLAYERNUM = 2
+MAPNUM = 141
+
+# Miscellaneous Trip Zone (MAPB4)
+EMBLEM 13
+X = -5280
+Y = 4640
+Z = 0
+PLAYERNUM = 0
+MAPNUM = 143
+
+EMBLEM 14
+X = 6752
+Y = 5504
+Z = 1000
+PLAYERNUM = 1
+MAPNUM = 143
+
+EMBLEM 15
+X = -3712
+Y = 2080
+Z = 128
+PLAYERNUM = 2
+MAPNUM = 143
+
+# ==== Integration with zones.dta (SRB2 v2.06) ====
+
+# Single Player rotation
+# - let's hide official levels but still accessible via secrets and MAP command.
+Level 01
+TimeAttack = 0
+LevelSelect = 0
+
+Level 02
+TimeAttack = 0
+LevelSelect = 0
+
+Level 03
+TimeAttack = 0
+LevelSelect = 0
+
+Level 04
+TimeAttack = 0
+LevelSelect = 0
+
+Level 05
+TimeAttack = 0
+LevelSelect = 0
+
+Level 06
+TimeAttack = 0
+LevelSelect = 0
+
+Level 07
+TimeAttack = 0
+LevelSelect = 0
+
+Level 08
+TimeAttack = 0
+LevelSelect = 0
+
+Level 09
+TimeAttack = 0
+LevelSelect = 0
+
+Level 10
+TimeAttack = 0
+LevelSelect = 0
+
+Level 11
+TimeAttack = 0
+LevelSelect = 0
+
+Level 13
+TimeAttack = 0
+LevelSelect = 0
+
+Level 16
+TimeAttack = 0
+LevelSelect = 0
+
+Level 17
+TimeAttack = 0
+LevelSelect = 0
+
+Level 22
+TimeAttack = 0
+LevelSelect = 0
+
+Level 23
+TimeAttack = 0
+LevelSelect = 0
+
+Level 24
+TimeAttack = 0
+LevelSelect = 0
+
+# Race rotation
+Level 79
+NextLevel = 173
+
+# CTF rotation
+Level 85
+NextLevel = 174
+
+# Match rotation
+Level 99
+NextLevel = 175
+
+
+# ==== Single-player and Co-op maps ====
+
+# Genesis Keep Zone Act 1 (MAPB1)
+Level 137
+LevelName = Genesis Keep
+Act = 1
+MusicSlot = 98
+NextLevel = 138
+TypeOfLevel = 4099
+SkyNum = 1
+TimeAttack = 1
+LevelSelect = 1
+
+# Genesis Keep Zone Act 2 (MAPB2)
+Level 138
+LevelName = Genesis Keep
+Act = 2
+MusicSlot = 98
+NextLevel = 139
+TypeOfLevel = 4099
+SkyNum = 1
+TimeAttack = 1
+LevelSelect = 1
+
+# Genesis Keep Zone Act 3 (MAPB3)
+Level 139
+LevelName = Genesis Keep
+Act = 3
+MusicSlot = 3
+NextLevel = 140
+TypeOfLevel = 4097
+SkyNum = 1
+TimeAttack = 1
+LevelSelect = 1
+
+# Mill Citadel Zone Act 1 (MAPB4)
+Level 140
+LevelName = Mill Citadel
+Act = 1
+MusicSlot = 137
+NextLevel = 141
+TypeOfLevel = 4099
+SkyNum = 29
+TimeAttack = 1
+LevelSelect = 1
+
+# Mill Citadel Zone Act 2 (MAPB5)
+Level 141
+LevelName = Mill Citadel
+Act = 2
+MusicSlot = 137
+NextLevel = 142
+TypeOfLevel = 4099
+SkyNum = 29
+TimeAttack = 1
+LevelSelect = 1
+
+# Mill Citadel Zone Act 3 (MAPB6)
+Level 142
+LevelName = Mill Citadel
+Act = 3
+MusicSlot = 3
+NextLevel = 143
+TypeOfLevel = 4097
+SkyNum = 29
+TimeAttack = 1
+LevelSelect = 1
+
+# Miscellaneous Trip Zone (MAPB7)
+Level 143
+LevelName = Miscellaneous Trip
+Act = 0
+MusicSlot = 88
+NextLevel = 1102
+TypeOfLevel = 4099
+SkyNum = 1
+TimeAttack = 1
+LevelSelect = 1
+Subtitle = Experimental Map
+
+
+# ==== Muitlplayer maps ====
+
+# Aqueduct Circuit Zone (MAPC1 - Race)
+Level 173
+LevelName = Aqueduct Circuit
+Act = 0
+MusicSlot = 92
+NextLevel = 70
+TypeOfLevel = 2
+SkyNum = 4
+
+# Lift Bridge Zone (MAPC2 - CTF)
+Level 174
+LevelName = Lift Bridge
+Act = 0
+MusicSlot = 90
+NextLevel = 80
+TypeOfLevel = 16
+SkyNum = 1
+
+# Water Plant Zone (MAPC3 - Match and Tag)
+Level 175
+LevelName = Water Plant
+Act = 0
+MusicSlot = 2
+NextLevel = 90
+TypeOfLevel = 12
+SkyNum = 29
+
+# Soccer Field Zone (MAPC4 - SP, Coop, Match and Tag)
+# This is an experimental map. If you host a server with this map, make sure to host it on Casual room (see ms.srb2.org).
+# In co-op, to exit the level use EXITLEVEL on console; in Single Player, use the game menu.
+Level 176
+LevelName = Soccer Field
+Act = 0
+MusicSlot = 90
+NextLevel = 90
+TypeOfLevel = 4109
+SkyNum = 1
+LevelSelect = 0
+Hidden = 1
+Subtitle = Casual Map
+
+
+# ==== SOC ====
+
+# -- SOCCER/FOOTBALL THING --
+# It replaces big tumbleweed's sprites with cannonball's.
+# FRAME: it's the thing state. States from 786 to 794 are big tumbleweed's states.
+# SPRITENUMBER: it's the thing sprite rotation. 83 is cannonball's rotation (SPR_CBLL).
+# SPRITESUBNUMBER: it's the sprite frame. Cannonball's sprite has only the 1st frame, therefore, 0.
+
+# Ball - idle
+FRAME 786
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+# Ball - bouncing
+FRAME 787
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 788
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 789
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 790
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 791
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 792
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 793
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+FRAME 794
+SPRITENUMBER = 83
+SPRITESUBNUMBER = 0
+
+# End of Configuration file
+

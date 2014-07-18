@@ -1,0 +1,80 @@
+***** ArchPack v1.1 *****
+File: scmrtf_archpack.wad
+Author: Ezer'Arch
+Version Build: August 12, 2012
+
+Thank you for downloading ArchPack version 1.1, an addon created for the fangame SRB2, Sonic Robo Blast 2 (http://www.srb2.org). I hope you enjoy playing this level pack.
+
+The development of this level pack started on July 2008, when I released my first map called Miscellaneous Trip Zone. All my released maps are included in this pack.
+
+
+--- Content of ArchPack ---
+
+ArchPack contains 7 maps: 4 single player maps and 3 multiplayer maps, as follows:
+
+Single Player maps (*):
+    MAPB1 - Mill Citadel Zone 1
+    MAPB2 - Mill Citadel Zone 2
+    MAPB3 - Mill Citadel Zone 3
+    MAPB4 - Miscellaneous Trip Zone
+
+Multiplayer maps:
+    MAPC1 - Aqueduct Circuit Zone (Race)
+    MAPC2 - Lift Bridge Zone (CTF)
+    MAPC3 - Water Plant Zone (Match and Tag)
+    
+* Single player maps can also be played on multiplayer mode in Co-op gametype.
+
+
+--- What's new? ---
+
+ArchPack v1.1 change log (2012.08.12):
+
+- ADDED: MCZ2 - Lost of minor tweaks and new obstacles in the second section of the map.
+- ADDED: ACZ - Cascades now force the character into spin state.
+- ADDED: WPZ - More springs to access the catwalk (Southern part).
+- CHANGE: MCZ2 - Lots of minor tweaks and fixes, specially no climbable walls. Some monitors were replaced/relocated.
+- CHANGE: MCZ3 - Some windows were replaced with platforms where the player can attack the boss if he is flying too high.
+- CHANGE: ACZ - The river, before the last starpost, is a bit wider.
+- CHANGE: LBZ - The air tubes are now slightly slower and their entrances slightly larger.
+- CHANGE: LBZ - Sector, FOF and Thing optimization.
+- CHANGE: LBZ - Minor aesthetic tweaks.
+- FIX: LBZ - Fixed the speed pads in the air tubes not teleporting the player to the center of the sector, causing the player to get stuck in the tube.
+
+
+--- Launching SRB2 with ArchPack ---
+
+Firstly, the file scmrtf_archpack.wad must be in SRB2 folder or any folder within the SRB2 folder, and then, start up SRB2 with ArchPack by one of the following ways:
+
+1) Manual loading: start up SRB2, open the console (see http://wiki.srb2.org/wiki/Console) and type ADDFILE scmrtf_archpack.wad and hit Enter. The level pack will be loaded.
+
+2) Or, using a launcher: use one of the provided batch files to start up standard SRB2, XSRB2 or SRB2CB (in OpenGL) with ArchPack.
+
+Once the ArchPack is loaded, use the game menu to start or host a new game, and you are done.
+
+
+--- Savegame, Statistics, Time Attack and Secrets ---
+
+This level pack is capable of recording savegames, statistics (gamedata) and time attacks which are accessible through game menu, option "1 Player".
+
+NOTICE: Time attacks from older versions of ArchPack may be incompatible with this version.
+
+The single player maps have 7 special stages tokens in total. Although it is possible to obtain all 7 Chaos Emeralds, they have no use since there is no map after the player has obtained all emeralds.
+
+Unlockables of any kind were not included in this level pack.
+
+
+--- More info ---
+
+If you want more details about this level pack and its development, or if you want to report a bug, please refer to the links below:
+
+- ArchPack Doc on SRB2Wiki: http://wiki.srb2.org/wiki/User:Ezer'Arch/ArchPack
+- Discussion topic: http://mb.srb2.org/showthread.php?t=30971
+- YouTube channel: http://www.youtube.com/user/EzerArch
+- Ezer'Arch's site: http://www.ezerarch.com
+
+If you want more details about Sonic Robo Blast 2, SRB2:
+
+- SRB2Wiki on-line manual: http://wiki.srb2.org
+
+--------------------------------------------------------------------------------

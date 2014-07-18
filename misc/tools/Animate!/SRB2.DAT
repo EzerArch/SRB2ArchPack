@@ -1,0 +1,104 @@
+# ANIMATED defaults for SRB2
+# by Jason the Echidna
+# Updated by Torgo
+
+# Speed is how many tics before the next frame of
+# animation. (So a speed of 8 is slower then 2 because
+# it waits 8 tics before switching to the next frame.)
+# Last is the last frame in the animation.
+# First is the first frame in the animation.
+
+# This list is a perfect replica of the one in SRB2's
+# source code, right down to the commenting. But I
+# took the time to do the boring work of putting it
+# in the format below, SO YOU'D BETTER FIND IT USEFUL.
+
+[SWITCHES]
+# There are no switches in SRB2.
+
+[FLATS]
+#speed  #last    #first
+4       LITEY3   LITEY1
+4       FWATER16 FWATER1
+4       BWATER16 BWATER01
+4       LWATER16 LWATER1
+4       WATER7   WATER0
+8       SWATER4  SWATER1
+8       LAVA4    LAVA1
+8       DLAVA4   DLAVA1
+8       RLAVA8   RLAVA1
+8       LITER3   LITER1
+4       SURF08   SURF01
+
+#speed  #last    #first
+4       CHEMG16  CHEMG01  # THZ Chemical gunk
+4       GOOP16   GOOP01   # Green chemical gunk
+4       OIL16    OIL01    # Oil
+2       THZBOXF4 THZBOXF1 # Moved up with the flats
+2       ALTBOXF4 ALTBOXF1
+
+#speed  #last    #first
+4       LITEB3   LITEB1
+4       LITEN3   LITEN1
+4       ACZRFL1H ACZRFL1A
+4       ACZRFL2H ACZRFL2A
+4       EGRIDF3  EGRIDF1
+1       ERZFAN4  ERZFAN1
+1       ERZFANR4 ERZFANR1
+15      DISCO4   DISCO1
+
+[TEXTURES]
+#speed  #last    #first
+2       GFALL4   GFALL1   # Short waterfall
+2       CFALL4   CFALL1   # Long waterfall
+2       TFALL4   TFALL1   # THZ Chemical fall
+2       AFALL4   AFALL1   # Green Chemical fall
+2       QFALL4   QFALL1   # Quicksand fall
+2       Q2FALL4  Q2FALL1
+2       Q3FALL4  Q3FALL1
+2       Q4FALL4  Q4FALL1
+2       Q5FALL4  Q5FALL1
+2       Q6FALL4  Q6FALL1
+2       Q7FALL4  Q7FALL1
+2       LFALL4   LFALL1
+2       MFALL4   MFALL1
+2       OFALL4   OFALL1
+8       DLAVA4   DLAVA1
+1       ERZLASA2 ERZLASA1
+1       ERZLASB4 ERZLASB1
+1       ERZLASC4 ERZLASC1
+2       THZBOX04 THZBOX01
+2       ALTBOX04 ALTBOX01
+4       SFALL4   SFALL1   # Lava fall
+4       RVZFALL8 RVZFALL1
+2       BFALL4   BFALL1   # HPZ waterfall
+4       GREYW3   GREYW1
+4       BLUEW3   BLUEW1
+4       COMP6    COMP4
+4       RED3     RED1
+4       YEL3     YEL1
+1       ACWRFL1D ACWRFL1A
+1       ACWRFL2D ACWRFL2A
+1       ACWRFL3D ACWRFL3A
+1       ACWRFL4D ACWRFL4A
+1       ACWRP1D  ACWRP1A
+1       ACWRP2D  ACWRP2A
+1       ACZRP1D  ACZRP1A
+1       ACZRP2D  ACZRP2A
+2       OILFALL4 OILFALL1
+2       SOLFALL4 SOLFALL1
+4       DOWN1C   DOWN1A
+4       DOWN2C   DOWN2A
+4       DOWN3D   DOWN3A
+4       DOWN4C   DOWN4A
+4       DOWN5C   DOWN5A
+4       UP1C     UP1A
+4       UP2C     UP2A
+4       UP3D     UP3A
+4       UP4C     UP4A
+4       UP5C     UP5A
+4       EGRID3   EGRID1
+1       ERFANW4  ERFANW1
+1       ERFANX4  ERFANX1
+15      DISCOD4  DISCOD1
+8       DANCE4   DANCE1

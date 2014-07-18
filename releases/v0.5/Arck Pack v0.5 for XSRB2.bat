@@ -1,0 +1,1 @@
+xsrb2 -file scmrtf_archpack_b0-5.wad

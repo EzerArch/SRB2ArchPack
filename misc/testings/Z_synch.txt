@@ -1,0 +1,15 @@
+Level 137
+LevelName = Mill Citadel
+Act = 1
+MusicSlot = 137
+NextLevel = 138
+TypeOfLevel = 4099
+SkyNum = 29
+
+# S_CeilingSpike - ZThrust pushes spike up each tic so that it follows rising ceilings (thanks Prime 2.0)
+FRAME 621
+DURATION = 1
+NEXT = 621
+ACTION A_ZThrust
+VAR1 = 50
+VAR2 = 0
