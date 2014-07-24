@@ -29,7 +29,7 @@ file = None  # creates empty variable
 
 # Message
 print("\n**** ArchPack Mini Launcher ****")
-print("\n::idea:: Try startSRB2. The best SRB2 Launcher in the town!")
+print("\n::idea:: Try startSRB2. The best SRB2 Launcher in town!")
 input( "\nHit ENTER to proceed... ")
 
 
