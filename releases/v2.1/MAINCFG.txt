@@ -1,9 +1,14 @@
 # Configuration File for ArchPack
 # File: scmrtf_archpack.wad
 # Author: Ezer'Arch (ezerarch.com and youtube.com/EzerArch)
-# Release date: July 17, 2014
+# Release date: July 25, 2014
 # Version Build: 2.1 Stable
-# LICENSE: Feel free to copy whole or parts of this MainCFG as long as you don't claim as yours.
+
+# LICENSE: 
+#   - Feel free to study the maps and copy ideas but don't make straight copies of whole or parts of the maps.
+#   - Feel free to copy whole or parts of this MainCFG.
+#   - Don't claim anything mine as yours.
+#   - Any questions? Contact me.
 
 # ==== Notes ====
 # v2.1 change log:
@@ -15,7 +20,6 @@
 # Known issues:
 # 1) Linedef type 425, Change Object State, not working in MAPC1 - Aqueduct Circuit Zone (Race).
 # 2) There are some hall-of-mirrors in GKZ2.
-# 3) There is a bug in the emblems/unlockable system, vanilla unlockables "leak" into this mod, and it counts more emblems than it is supposed to.
 #
 # General:
 #   - This level pack comes with a readme.txt, more details can be found there too.
@@ -26,36 +30,47 @@ SRB2 version = 210
 
 # ==== MainCFG ====
 
-MAINCFG
+MainCfg
 GameData = scmrtf_archpack.dat
 CustomVersion = ArchPack v2.1 by Ezer'Arch
-NumEmblems = 15
-TitleScrollSpeed = 8
 SpStage_Start = B1
 SStage_Start = 50
-
-Clear All
-
+TitleScrollSpeed = 8
+UseNiGHTSSS = TRUE
 
 # ==== Unlockables ====
+
+# Remove SRB2's unlockables
+Clear Unlockables
+Clear Emblems
+Clear ExtraEmblems
+Clear ConditionSets
 
 # 1 - LOCK-ON
 Unlockable 1
 Name = Vanilla maps
 Objective = Clear game at least once
-NeededGrade = 1
-Type = 1
-Var = 1
+Type = LevelSelect
+Var = 2
+Height = 20
+ConditionSet = 1
 
 # 2 - Soccer field
 UNLOCKABLE 2
 Name = Soccer field
-Objective = Collect 15 emblems and time-attack in    8 minutes
-NeededGrade = 0
-NeededEmblems = 15
-NeededTime = 480
-Type = 1
-Var = 176
+Objective = Collect 15 emblems and time-attack in 8 minutes
+Type = Warp
+Var = ME
+Height = 40
+ConditionSet = 2
+
+# ConditionSets
+ConditionSet 1
+Condition1 = GameClear
+
+ConditionSet 2
+Condition1 = OverallTime 16800
+Condition1 = TotalEmblems 15
 
 
 # ==== Emblems ====
@@ -203,90 +218,93 @@ Z = 128
 # ==== Integration with zones.dta (SRB2 v2.1x) ====
 
 # Single Player rotation
-# - let's hide official levels but still accessible via secrets and MAP command.
+# - hide official levels but still accessible via Secrets and MAP command.
 Level 01
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 02
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 03
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 04
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 05
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 06
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 07
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 08
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 09
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 10
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 11
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
+
+Level 12
+RecordAttack = 0
+LevelSelect = 2
 
 Level 13
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 16
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 17
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 22
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 23
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 24
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 Level 25
 RecordAttack = 0
-LevelSelect = 0
+LevelSelect = 2
 
 # Race rotation
-Level 79
-NextLevel = 173
+# *** Removed from vanilla pack ***
 
 # CTF rotation
-Level 85
-NextLevel = 174
+Level FA
+NextLevel = FB
 
 # Match rotation
-Level 99
-NextLevel = 175
+Level MC
+NextLevel = MD
 
 
 # ==== Single-player and Co-op maps ====
@@ -341,7 +359,7 @@ LevelName = MILL CITADEL
 Act = 2
 MusicSlot = 137
 TypeOfLevel = Singleplayer,Co-op,Competition,Race
-NextLevel = B5
+NextLevel = B6
 SkyNum = 29
 RecordAttack = true
 LevelSelect = 1
@@ -462,3 +480,4 @@ SPRITENUMBER = SPR_CBLL
 SPRITESUBNUMBER = 0
 
 # End of Configuration file
+
