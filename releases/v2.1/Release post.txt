@@ -1,0 +1,37 @@
+From: http://mb.srb2.org/showthread.php?p=758777
+
+[SIZE=4][B]ArchPack - single player and multiplayer level pack[/B][/SIZE]
+[I][B] version  2.1 stable - 2.1 Port[/B][/I]
+
+[URL="http://www.youtube.com/watch?v=-Kmwq82QvAo&feature=share&list=PLBWqae2CBZiGOcDpG7crzK1HraJRd95fl"][IMG]http://i.imgur.com/x3Yfdal.png[/IMG][/URL]
+
+[B]ArchPack[/B] is a level pack addon for SRB2 with single player and multiplayer maps, including my very first map called Miscellaneous Trip Zone released on July 2008, back when SRB2 1.09.4 was still around. All my released and finished maps are included in this pack.
+
+The version 2.1 is a straight port from SRB2 2.0.6 to 2.1.8 (works with 2.1.10 as well) which I offer to give more options for those who would like to try short level packs with old maps.
+
+This pack comes with launchers and a [B][I]readme.txt[/I][/B] with more details. This pack, unfinished maps and other material can be found on my [URL="https://github.com/EzerArch/SRB2ArchPack"]GitHub[/URL].
+
+[SIZE=2][B]Single Player maps:[/B][/SIZE]
+[LIST]
+[*]MAPB1 - Genesis Keep Zone 1
+[*]MAPB2 - Genesis Keep Zone 2
+[*]MAPB3 - Genesis Keep Zone 3
+[*]MAPB4 - Mill Citadel Zone 1
+[*]MAPB5 - Mill Citadel Zone 2
+[*]MAPB6 - Mill Citadel Zone 3
+[*]MAPB7 - Miscellaneous Trip Zone
+[/LIST]
+[SIZE=2][B]Multiplayer maps:[/B][/SIZE]
+[LIST]
+[*]MAPFB - Lift Bridge Zone (CTF)
+[*]MAPMD - Water Plant Zone (Match and Tag)
+[*]MAPR0 - Aqueduct Circuit Zone (Race)
+[*]MAPME - Soccer Field Zone (Hidden map - Single Player, Co-op, Match and Tag)
+[/LIST]
+[SIZE=2][B]Known issues:[/B][/SIZE]
+[LIST=1]
+[*]Linedef type 425, Change Object State, not working in MAPR0 - Aqueduct Circuit Zone (Race).
+[*]There are some hall-of-mirrors in GKZ2.
+[/LIST]
+
+[B]See also:[/B] [URL="http://wiki.srb2.org/wiki/User:Ezer%27Arch/ArchPack"]ArchPack Doc[/URL]. [URL="http://mb.srb2.org/showthread.php?t=30971"]ArchPack v2.0 (old release + parts pack)[/URL]. [URL="http://ezerarch.imgur.com/"]Image album[/URL]. [URL="http://www.youtube.com/user/EzerArch"]Ezer'Arch's YouTube channel[/URL]. [URL="http://www.youtube.com/watch?v=jwhfcabsXvY"]Egg Rock Zone 2 as you've never seen![/URL]
