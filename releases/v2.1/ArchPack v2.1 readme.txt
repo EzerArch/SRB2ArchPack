@@ -90,7 +90,7 @@ MULTIPLAYER:
 If you want more details about this level pack and its development, or if you want to report a bug, please refer to the links below:
 
 - ArchPack Doc on SRB2Wiki: http://wiki.srb2.org/wiki/User:Ezer'Arch/ArchPack
-- Discussion topic: http://mb.srb2.org/showthread.php?p=758777
+- Discussion topic: http://mb.srb2.org/showthread.php?t=39728
 - Ezer'Arch's YouTube channel: http://www.youtube.com/user/EzerArch (Subscribe to be notified about new videos)
 - Ezer'Arch's site: http://www.ezerarch.com
 
