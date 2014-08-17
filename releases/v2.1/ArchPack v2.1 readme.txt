@@ -1,7 +1,7 @@
 ***** ArchPack v2.1 *****
 File: scmrtf_archpack.wad
 Author: Ezer'Arch (http://www.ezerarch.com and http://www.youtube.com/EzerArch)
-Release date: August 11, 2014
+Release date: August 17, 2014
 
 Thank you for downloading ArchPack version 2.1, an addon created for the fangame SRB2, Sonic Robo Blast 2 (http://www.srb2.org). I hope you enjoy playing this level pack.
 
@@ -35,12 +35,13 @@ Hidden map (**):
 
 --- What's new? ---
 
-ArchPack v2.1 change log (2014.08.11):
+ArchPack v2.1 change log (2014.08.17):
 
    - CHANGE: General - port to SRB2 2.1.x.
    - CHANGE: GKZ1 - more detail.
    - CHANGE: GKZ2 - more detail.
-   - CHANGE: MCZ1 - wrong FOF height in the first room.
+   - FIX: MCZ1 - wrong FOF height in the first room.
+   - FIX: MTZ - Sonic's emblem stuck in the platform.
 
 Known issues:
 1) Linedef type 425, Change Object State, not working in MAPR0 - Aqueduct Circuit Zone (Race).
