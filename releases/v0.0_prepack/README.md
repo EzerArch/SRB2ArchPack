@@ -11,7 +11,7 @@ A bit about the content
 
 * MiscRealm: the 1st public maps posted on SRB2 Message Board.
 
-* Others except LiftBridge2.0: maps for OLDC.
+* Others except LiftBridge2.0 and MillCitadel_act3: maps for OLDC.
 
 * LiftBridge2.0: an updated that added beaches and a few changes (based on feedback, maybe)
 
