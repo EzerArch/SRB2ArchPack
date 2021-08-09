@@ -14,9 +14,9 @@ Required version
 A bit about the content
 -------------
 
-* FirstMap: the map I made to learn SRB2 Doom Builder (https://wiki.srb2.org/wiki/SRB2_Doom_Builder). Likely in June 2008.
+* FirstMap: the map I made while following the SRB2 Doom Builder tutorial (https://wiki.srb2.org/wiki/SRB2_Doom_Builder_tutorial) likely in June 2008. Never included in ArchPack, it's here for "curiosity" purposes to show mappers can start small.
 
-* MiscRealm: the 1st public maps posted on SRB2 Message Board.
+* MiscRealm: the 1st public maps posted on SRB2 Message Board. It was made mostly as pratice and experiment after following the SRB2 Doom Builder tutorial.
 
 * Others except LiftBridge2.0 and MillCitadel_act3: maps for OLDC.
 
