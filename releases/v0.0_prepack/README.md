@@ -20,7 +20,7 @@ A bit about the content
 
 * Others except LiftBridge2.0 and MillCitadel_act3: maps for OLDC.
 
-* LiftBridge2.0: an updated that added beaches and a few changes (based on feedback, maybe)
+* LiftBridge2.0: an update that added beaches and a few changes (based on feedback)
 
 * And a few finds and more. You can tell what is what by directory and file names. Or just open them, they won't bite.
 
