@@ -1,0 +1,11 @@
+ArchPack v2.1 change log (2014.08.19):
+
+   - CHANGE: General - port to SRB2 2.1.x.
+   - CHANGE: GKZ1 - more detail.
+   - CHANGE: GKZ2 - more detail.
+   - FIX: MCZ1 - wrong FOF height in the first room.
+   - FIX: MTZ - Sonic's emblem stuck in the platform.
+
+Known issues:
+1) Linedef type 425, Change Object State, not working in MAPR0 - Aqueduct Circuit Zone (Race).
+2) There are some hall-of-mirrors in GKZ2.
