@@ -1,0 +1,14 @@
+Changelog:
+ADD: Genesis Keep Scrapped Zone Act 1 and 2 as unlockable, under "Scrapped Maps" level select.
+ADD: Ad Nauseum, a test map, as unlockable. Access via Extra Menu.
+ADD: The Big Fabric as unlockable, a challenge map. Access via Extra Menu.
+ADD/CHANGED: Emblems are now 42, including one for time, rings and score. Better emblem hints.
+CHANGED: MCZ fog/light beams improved (those lights from collapsed roof). Better on OpenGL.
+CHANGED: MCZ outdoor light level toned down.
+CHANGED: MCZ1, tall characters can now access the 1st token room.
+CHANGED: GKZ2 and MCZ2, music changed.
+CHANGED: MCZ2, long hallway behind the courtyard got some obstacles to be less empty.
+CHANGED: Boss maps, timer stops on boss defeat.
+CHANGED: Soccer Filed now plays a "chime" when the exit opens.
+FIX: crash with SRB2 2.2.10 fixed.
+FIX: lots of minor fixes in maps, MainCFG and level pics.
