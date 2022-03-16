@@ -1,0 +1,20 @@
+Changelog:
+- CHANGE: General - port to SRB2 2.2.x.
+- FIX: GKZ - visual fixes.
+- FIX: MCZ - replace fog block with light FOFs because it blinds enemies.
+- CHANGE: MCZ - add a few slopes (just to try this new technology).
+- CHANGE: MCZ - less spikes, enemies and rings; spike FOFs removed.
+- CHANGE: MCZ - improvements, specially the MCZ2's courtyard.
+- CHANGE: MTZ - is now an unlockable.
+- CHANGE: MTZ - dark rooms slightly less dark; spike FOFs removed.
+- CHANGE: SFZ - now is a SP/coop-only map and unlockable (16 emblems).
+- CHANGE: LBZ - improved, and comes with two, I mean, one sand castle.
+- CHANGE: WPZ - improved, a lot.
+- CHANGE: ACZ - improved, a bit.
+- CHANGE: SFZ Ball SOC has its own file.
+- ADD: SFZ - added a bleacher with spectators and a ping-pong table with 2 spectators. Don't sue me if you get stuck there.
+- REMOVED: General - unlockable vanilla maps.
+- REMOVED: General - custom texture for CASTLEA.
+
+Known issues:
+- The maps are old.
