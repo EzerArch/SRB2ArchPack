@@ -1,3 +1,9 @@
+NOTE: This readme is outdated. ArchPack is now 2.2
+
+The current release and discussion thread: https://mb.srb2.org/threads/archpack-v2-2-srmf_archpack_v2-2-pk3.30808/ (Jan 2021)
+
+---
+
 ArchPack v2.1
 =============
 - File: scmrtf_archpack.wad
